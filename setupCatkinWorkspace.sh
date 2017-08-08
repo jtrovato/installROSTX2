@@ -27,4 +27,5 @@ grep -q -F ' ROS_MASTER_URI' ~/.bashrc ||  echo 'export ROS_MASTER_URI=http://lo
 grep -q -F ' ROS_IP' ~/.bashrc ||  echo "export ROS_IP=$(hostname -I)" | tee -a ~/.bashrc
 echo "export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
 
-
+#make sure to source catkin setup file
+echo "source "$DEFAULTDIR"/devel/setup.bash" >> ~/.bashrc
