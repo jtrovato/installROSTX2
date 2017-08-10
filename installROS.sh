@@ -16,7 +16,10 @@ sudo apt-get install ros-kinetic-desktop -y
 # sudo apt-get install ros-kinetic-PACKAGE
 # e.g.
 # sudo apt-get install ros-kinetic-navigation
-sudo apt-get install ros-kinetic-pointgrey-camera-driver
+sudo apt-get install ros-kinetic-pointgrey-camera-driver -y
+sudo apt-get install ros-kinetic-mavros -y
+sudo apt-get install ros-kinetic-pcl-conversions -y
+suao apt-get install ros-kinetic-image-view
 
 #
 # To find available packages:
